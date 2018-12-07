@@ -1,0 +1,69 @@
+script.
+  key='#{key}'
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    title Youtube Search
+  
+    meta(name='author' content='name')
+    meta(name='description' content='description here')
+    meta(name='keywords' content='keywords,here')
+    link(rel='stylesheet' href='css/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+    
+body  
+    include includes/header.pug  
+        h1 Google API's 
+div.container      
+    div
+        input#search(type="text")
+    div
+        button#submit(type="submit") Click Me
+
+.youtubeItems
+  div.row
+    div.col-sm-3
+      a(id="video0", href="")
+        img.card-img-top0#card
+    div.col-sm-3
+      a(id="video1", href="")
+        img.card-img-top1#card
+    div.col-sm-3
+      a(id="video2", href="")
+        img.card-img-top2#card
+    div.col-sm-3
+      a(id="video3", href="")
+        img.card-img-top3#card
+    div.col-sm-3
+      a(id="video4", href="")
+        img.card-img-top4#card
+    div.col-sm-3
+      a(id="video5", href="")
+        img.card-img-top5#card
+    div.col-sm-3    
+      a(id="video6", href="")
+        img.card-img-top6#card
+    div.col-sm-3
+      a(id="video7", href="")
+        img.card-img-top7#card
+    div.col-sm-3
+      a(id="video8", href="")
+        img.card-img-top8#card
+    div.col-sm-3
+      a(id="video9", href="")
+        img.card-img-top9#card
+
+    
+
+
+
+
+        script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl', crossorigin='anonymous')
+        script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
+        script(src='//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' type='text/javascript')
+        script(src='scripts/youtube.js')
+        
+
